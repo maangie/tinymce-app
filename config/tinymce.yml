@@ -1,0 +1,5 @@
+default:
+  plugins:
+    - textcolor
+  toolbar:
+    - forecolor | backcolor | styleselect | fontselect
