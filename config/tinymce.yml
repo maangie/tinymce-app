@@ -3,3 +3,5 @@ default:
     - textcolor
   toolbar:
     - forecolor | backcolor | styleselect | fontselect
+  font_formats:
+    "Mincho=IPAexMincho;Gothic=IPAexGothic"
