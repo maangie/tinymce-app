@@ -17,6 +17,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'tinymce-rails'
+gem 'tinymce-rails-langs'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary-edge', '~> 0.12.2.1'
 

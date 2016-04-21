@@ -1,6 +1,7 @@
 default:
   plugins:
     - textcolor
+  language: ja
   toolbar:
     - forecolor | backcolor | styleselect | fontselect
   font_formats:
