@@ -20,6 +20,8 @@ gem 'tinymce-rails'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 
+gem 'twitter-bootstrap-rails'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
