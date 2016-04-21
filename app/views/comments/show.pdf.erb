@@ -6,6 +6,10 @@
     <%= wicked_pdf_javascript_include_tag 'number_pages' %>
   </head>
   <body onload='number_pages'>
+    <p style="text-align:right; font-size: xx-small;">
+      出力日時: <%= Time.zone.now.to_s %>
+    </p>
+
     <h1 style="text-align:center;"><%= @comment.title %></h1>
 
     <div id="content">
