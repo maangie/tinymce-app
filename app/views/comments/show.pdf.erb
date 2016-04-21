@@ -6,6 +6,8 @@
     <%= wicked_pdf_javascript_include_tag 'number_pages' %>
   </head>
   <body onload='number_pages'>
+    <h1 style="text-align:center;"><%= @comment.title %></h1>
+
     <div id="content">
       <%= @comment.content.force_encoding('UTF-8').html_safe %>
     </div>
