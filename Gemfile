@@ -18,7 +18,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'tinymce-rails'
 gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary'
+gem 'wkhtmltopdf-binary-edge', '~> 0.12.2.1'
 
 gem 'twitter-bootstrap-rails'
 
