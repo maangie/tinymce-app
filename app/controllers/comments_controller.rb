@@ -12,11 +12,7 @@ class CommentsController < ApplicationController
   def show
     respond_to do |format|
       format.html
-      
-      format.pdf do
-        render pdf: 'comment',
-              encoding: 'UTF-8'
-      end
+      format.pdf { render pdf: 'comment', encoding: 'UTF-8' }
     end
   end
 
