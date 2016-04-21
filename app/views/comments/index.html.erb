@@ -22,6 +22,8 @@
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_comment_path(comment), :class => 'btn btn-default btn-xs' %>
+          <%= link_to t('.pdf'),
+                      comment_path(comment, format: 'pdf'), class: 'btn btn-default btn-xs' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       comment_path(comment),
                       :method => :delete,
