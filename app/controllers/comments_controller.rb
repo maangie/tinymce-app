@@ -10,6 +10,14 @@ class CommentsController < ApplicationController
   # GET /comments/1
   # GET /comments/1.json
   def show
+    respond_to do |format|
+      format.html
+      
+      format.pdf do
+        send_data WickedPdf.new.pdf_from_string(@comment.content),
+                  type: 'application/pdf', disposition: 'inline'
+      end
+    end
   end
 
   # GET /comments/new
