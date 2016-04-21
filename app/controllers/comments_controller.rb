@@ -14,8 +14,8 @@ class CommentsController < ApplicationController
       format.html
       
       format.pdf do
-        send_data WickedPdf.new.pdf_from_string(@comment.content),
-                  type: 'application/pdf', disposition: 'inline'
+        render pdf: 'comment',
+              encoding: 'UTF-8'
       end
     end
   end
