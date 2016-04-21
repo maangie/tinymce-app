@@ -17,7 +17,7 @@
       <tr>
         <td><%= link_to comment.id, comment_path(comment) %></td>
         <td><%= comment.title %></td>
-        <td><%= comment.content %></td>
+        <td><%= comment.content.truncate(50) %></td>
         <td><%=l comment.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
