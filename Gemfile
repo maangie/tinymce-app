@@ -26,6 +26,14 @@ gem 'twitter-bootstrap-rails'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
+
+  gem 'pry-coolline'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+  gem 'awesome_print'
+  gem 'hirb'
+  gem 'hirb-unicode'
 end
 
 group :development do
