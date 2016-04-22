@@ -5,4 +5,4 @@ default:
   toolbar:
     - forecolor | backcolor | styleselect | fontselect
   font_formats:
-    "Mincho=IPAexMincho;Gothic=IPAexGothic"
+    "Mincho=IPAexMincho,MS PMincho,Hiragino Mincho Pro;Gothic=IPAexGothic,MS PGothic,Osaka;"
