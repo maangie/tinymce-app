@@ -6,3 +6,5 @@ default:
     - forecolor | backcolor | styleselect | fontselect
   font_formats:
     "Mincho=IPAexMincho,MS PMincho,Hiragino Mincho Pro;Gothic=IPAexGothic,MS PGothic,Osaka;"
+  # FIXME: asset_path が使えない
+  content_css: "/css/tinymce.css"
