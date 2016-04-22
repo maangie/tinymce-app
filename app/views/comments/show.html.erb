@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
   <dd><%= @comment.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
-  <dd><%= @comment.content %></dd>
+  <dd><%= @comment.content.html_safe %></dd>
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
